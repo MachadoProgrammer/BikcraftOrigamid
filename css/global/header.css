@@ -7,9 +7,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .header-menu {
@@ -19,13 +16,10 @@
 }
 
 .header-menu a {
-  font-family: "Poppins";
-  font-weight: 400;
   position: relative;
   padding: 16px 0;
   display: inline-block;
   color: #ffffff;
-  font-size: 18px;
 }
 
 .header-menu a::after {
