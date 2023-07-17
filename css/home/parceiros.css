@@ -11,21 +11,18 @@
   padding: 0 20px;
   max-width: 1400px;
   display: grid;
-  margin: 0 auto;
   grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
 }
 
 .parceiros li {
   display: flex;
   padding: 32px;
+  border-left: 2px solid var(--cor-2);
 }
 
 .parceiros img {
-  margin: 0 auto;
-}
-
-.parceiros li {
-  border-left: 2px solid var(--cor-2);
+  margin: auto;
 }
 
 .parceiros li:first-child,
@@ -41,15 +38,11 @@
   .parceiros {
     padding-bottom: 60px;
   }
-  .parceiros li {
-    padding: 20px;
-    display: flex;
+  .parceiros h2 {
+    margin-bottom: 20px;
   }
   .parceiros ul {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .parceiros h2 {
-    margin-bottom: 20px;
   }
   .parceiros li:nth-child(n + 3) {
     border-top: 2px solid var(--cor-2);

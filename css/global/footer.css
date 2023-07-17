@@ -23,7 +23,7 @@
   display: block;
   max-width: 360px;
   height: 2px;
-  background-color: var(--cor-11);
+  background: var(--cor-11);
   margin-top: 16px;
 }
 
@@ -56,7 +56,7 @@
 
 @media (max-width: 600px) {
   .footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 60px;
   }
   .footer-copy {
